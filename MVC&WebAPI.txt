@@ -1,0 +1,8 @@
+Difference between MVC and Web API
+1: MVC can be used to develop the web application which replies as both data and views. But Web API is used to generate the HTTP services which replies 
+only as data.
+2: MVC request performs tracing with the action name. On the other hand, Web API request performs tracing with the actions depending on the HTTP services.
+3: MVC returns the data in the JSON format by using JSONResult. Web API returns the data in various formats, including JSON, XML and other format based on
+the concept header of the request.
+4: Web API includes the various features of the MVC, such as routing, model binding but these features are different and are defined in the "System.Web.Http"
+assembly. And the MVC features are defined in the "System.WEb.MVC" assembly.
